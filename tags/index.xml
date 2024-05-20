@@ -6,7 +6,16 @@
     <description>Recent content in 🧩 标签 on startstorm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 30 Nov 2022 15:55:23 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 10 May 2024 19:20:46 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Blog</title>
+      <link>https://startstorm.online/tags/blog/</link>
+      <pubDate>Fri, 10 May 2024 19:20:46 +0800</pubDate>
+      
+      <guid>https://startstorm.online/tags/blog/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>Redis</title>
       <link>https://startstorm.online/tags/redis/</link>
@@ -22,15 +31,6 @@
       <pubDate>Wed, 30 Nov 2022 15:55:23 +0800</pubDate>
       
       <guid>https://startstorm.online/tags/tech/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Blog</title>
-      <link>https://startstorm.online/tags/blog/</link>
-      <pubDate>Thu, 05 May 2022 00:18:23 +0800</pubDate>
-      
-      <guid>https://startstorm.online/tags/blog/</guid>
       <description></description>
     </item>
     
