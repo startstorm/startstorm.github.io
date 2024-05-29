@@ -6,7 +6,25 @@
     <description>Recent content in 🧱 建站 on startstorm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Fri, 10 May 2024 19:20:46 +0800</lastBuildDate><atom:link href="https://startstorm.online/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 29 May 2024 18:19:37 +0800</lastBuildDate><atom:link href="https://startstorm.online/posts/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hugo博客服务器Nginx配置</title>
+      <link>https://startstorm.online/posts/blog/hugo%E5%8D%9A%E5%AE%A2%E6%9C%8D%E5%8A%A1%E5%99%A8nginx%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Wed, 29 May 2024 18:19:37 +0800</pubDate>
+      
+      <guid>https://startstorm.online/posts/blog/hugo%E5%8D%9A%E5%AE%A2%E6%9C%8D%E5%8A%A1%E5%99%A8nginx%E9%85%8D%E7%BD%AE/</guid>
+      <description>Nginx配置 通过hugo命令，可以把hugo博客生成public静态资源文件，该静态资源文件可以部署在服务器上的Nginx，其他人就可以通过浏览器访问我们的博客网站。 下面的配置文件带SSL证书，可以使用https来访问我们的网站。SSL证书文件放在nginx.conf相同的文件</description>
+    </item>
+    
+    <item>
+      <title>Hugo博客仓库CI CD流水线搭建</title>
+      <link>https://startstorm.online/posts/blog/hugo%E5%8D%9A%E5%AE%A2%E4%BB%93%E5%BA%93ci-cd%E6%B5%81%E6%B0%B4%E7%BA%BF%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Wed, 29 May 2024 17:41:05 +0800</pubDate>
+      
+      <guid>https://startstorm.online/posts/blog/hugo%E5%8D%9A%E5%AE%A2%E4%BB%93%E5%BA%93ci-cd%E6%B5%81%E6%B0%B4%E7%BA%BF%E6%90%AD%E5%BB%BA/</guid>
+      <description>需求 想更新完hugo博客后，push到Github仓库 （ https://github.com/startstorm/my-hugo-papermod ） 后，Github仓库自动执行hugo命令生成public文件，并把public文件夹内的内容推送到github个人主页的仓库（ https://github.com/startstorm/startstorm.github.io ） Github Action Github提供了一个功能，Github Action可以帮助我们实现需求 1、在仓库的根</description>
+    </item>
+    
     <item>
       <title>Hugo博客搭建并配置PaperMod主题</title>
       <link>https://startstorm.online/posts/blog/hugo%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA%E5%B9%B6%E9%85%8D%E7%BD%AEpapermod%E4%B8%BB%E9%A2%98/</link>
