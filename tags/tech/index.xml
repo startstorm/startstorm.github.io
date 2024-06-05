@@ -6,7 +6,16 @@
     <description>Recent content in Tech on startstorm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Wed, 30 Nov 2022 15:55:23 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 03 Jun 2024 22:20:48 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nginx正向tcp代理</title>
+      <link>https://startstorm.online/posts/tech/nginx%E6%AD%A3%E5%90%91tcp%E4%BB%A3%E7%90%86/</link>
+      <pubDate>Mon, 03 Jun 2024 22:20:48 +0800</pubDate>
+      
+      <guid>https://startstorm.online/posts/tech/nginx%E6%AD%A3%E5%90%91tcp%E4%BB%A3%E7%90%86/</guid>
+      <description>Nginx模块 nginx正向tcp代理需要stream模块，检查模块的方法如下 nginx -V | grep -i stream Nginx配置 配置如下 stream { upstream backend_servers { # ... 上游服务器池配置 ... server 10.190.17.155:80; } server { listen 127.0.0.1:12345; # 监听端口，客户端将连接到这个端口 proxy_pass backend_servers; # 代理到上游服务器池 # 可选配置： # proxy_connect_timeout 10s; # 连接超时时间 # proxy_timeout 30s; # 数据传输超时时间 } }</description>
+    </item>
+    
     <item>
       <title>Redis scan命令学习</title>
       <link>https://startstorm.online/posts/tech/tech1/</link>
