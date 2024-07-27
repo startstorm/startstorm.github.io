@@ -6,7 +6,16 @@
     <description>Recent content in Tech on startstorm Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Mon, 03 Jun 2024 22:20:48 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 27 Jul 2024 11:41:04 +0800</lastBuildDate><atom:link href="https://startstorm.online/tags/tech/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Ctf学习笔记</title>
+      <link>https://startstorm.online/posts/tech/ctf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Sat, 27 Jul 2024 11:41:04 +0800</pubDate>
+      
+      <guid>https://startstorm.online/posts/tech/ctf%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0/</guid>
+      <description>杂项题目（Misc） 1、查看文件类型（kali自带） file 命令 用法： file filename 使用16进制查看文件，根据文件特征码判断文件类型 2、分离文件，分析文件 binwalk 命令（kali自带） 作用：分离文件，分析文件 用法： 分析文件：binwalk filename 分离文件：binwalk -e filename foremost 命令（kali自带） 作用：分离文件</description>
+    </item>
+    
     <item>
       <title>Nginx正向tcp代理</title>
       <link>https://startstorm.online/posts/tech/nginx%E6%AD%A3%E5%90%91tcp%E4%BB%A3%E7%90%86/</link>
